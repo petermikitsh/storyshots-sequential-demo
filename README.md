@@ -1,6 +1,8 @@
-# storyshots-parallel-demo
+# storyshots-sequential-demo
 
-Run storyshots in parallel (as opposed to sequentially).
+Companion repo: https://github.com/petermikitsh/storyshots-parallel-demo
+
+Run storyshots in sequence, using official integration (as opposed to experimental parallelized strategy).
 
 Requires `yarn`, and `nvm` is recommended.
 

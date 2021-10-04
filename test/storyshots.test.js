@@ -1,6 +1,6 @@
-import initStoryshots from "@storybook/addon-storyshots";
-import puppeteer from "puppeteer";
-import { imageSnapshot } from "@storybook/addon-storyshots-puppeteer";
+const { default: initStoryshots } = require("@storybook/addon-storyshots");
+const puppeteer = require("puppeteer");
+const { imageSnapshot } = require("@storybook/addon-storyshots-puppeteer");
 
 initStoryshots({
   framework: "react",
